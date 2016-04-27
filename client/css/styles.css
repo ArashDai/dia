@@ -1,211 +1,51 @@
-body {
-  color: #304852;
-  padding:0em;
-  margin:0em;
-  overflow:auto;
-}
 
-a{
-  color:black;
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background-color: lightblue;
 }
-
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: red;
-}
-
-a:active {
-    color: red;
-}
-
-#main{
-  width:100%;
-  padding:0em;
-  height:100vh;
-}
-
 .App{
-  width:100%;
-  padding:0em;
-  margin:0em;
-  height:100vh;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+#main{
+    width:100%;
+    margin:0px;
+    padding:0px;
 }
 
-.PageHeader{
-  height:6.5em;
-  background-color:#ff0000;
+.Homepage{
+    margin:0px;
+    padding:0px; 
+}
+.navbar{
+    background-color: white;
 }
 
-#MainHeaderNormal{
-  color:#EEEEEE;
-  font-size:48pt;
-}
-#MainHeaderSmall{
-  color:#EEEEEE;
-  font-size:25pt;
+.navbar div ul li{
+    padding-right:1em;
 }
 
-.MainPage{
-  width:100%;
-  padding:0em;
-  margin:0em; 
+.carouselImg{
+    width:100%;
+    height:60vh;
 }
 
-.Header{
-  margin:0em;
+.carousel{
+ width:100%;
+ margin:0px;
+ padding:0px;   
 }
 
-.Intro{
-  background-image: url('../assets/poke.png');
-  background-size:contain;
-  display: relative;
-  padding: 0em;
-  margin: 0em;
-  width: 100%;
-  height: 90vh;
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
 }
 
-#IntroImg{
-  width:100%;
-}
-
-.introHeader{
-  margin-top:40vh;
-  color:#EEEEEE;
-}
-
-
-.Heading{
-  font-size:4em;
-  color: #EEEEEE;
-}
-
-.Subheading{
-  font-size:2em;
-  color: #EEEEEE;
-}
-
-.PokemonStats{
-  padding: 0em;
-  margin: 0em;
-  width: 100%;
-  background-color: white;
- /* border-top: .2em solid #ff0000;*/
-}
-
-
-/*#F87D09*/
-
-.Portfolio{
-  background-color: #F5F5F5;
-  padding-bottom:1em;
-  /*border-top: .8em solid #ff0000;*/
-}
-
-.PortfolioImg{
-  padding: .3em;
-}
-
-.Portfolio .Heading{
-  color: #383838;
-}
-
-.Services{
-  background-color: #383838;
-  color:#EEEEEE;
-  border-top: .5em solid #ff0000;
-}
-
-.Services .Heading{
-  color:#EEEEEE;
-}
-
-.Contact{
-  padding-bottom: 1em;
-  border-top: .3em solid #ff0000;
-}
-
-#formbox{
-  border-left:.2em solid black;
-  border-right: .2em solid black;
-  border-top: .2em solid black;
-  padding: 0px;
-  color:black;
-}
-
-#emailInput{
-  border-left:.2em solid black;
-  border-right: .2em solid black;
-}
-
-textarea{
-  border:.2em solid black;
-  height: 3.5em;
-  resize:none;
-}
-
-#contactsubmit{
-  margin-top: 1em;
-}
-
-.Footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #383838;
-  text-align: center;
-  color:#EEEEEE;
-  border-top: .2em solid #ff0000;
-}
-
-#searchbutton{
-  display:inline;
-  height:2.7em;
-  color:black;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 0 !important;
-}
-#searchbox{
-  height:2.7em;
-  border:1px solid black;
-  margin-right:1em ;
-}
-
-#searchbuttons{
-  margin-bottom:1em;
-}
-
-#searchbuttons button{
-  margin:.5em;
-  color:black;
-  background-color: white;
-  border:1px solid red;
-  height:2em;
-}
-
-#sprite{
- margin-top:17%; 
- width:12em;
-}
-
-.cleanList{
-  list-style-type: none;
-}
-
-.cleanList li{
-  display: inline;
-}
-
-.pokeStats p{
-  font-weight: bold;
+.Card{
+    background-color: white;
+    padding:1em;
+    margin:1em;
+    box-shadow: 5px 5px 10px #888888;
 }

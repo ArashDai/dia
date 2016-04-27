@@ -1,17 +1,23 @@
-var React = require('react');
+
+import React from 'react'
+import { Router, Route, Indexroute, Link, browserHistory } from 'react-router'
+
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 
 
-
-var App = React.createClass({
+const App = React.createClass({
 
   render:function(){
     return(
 
       <div className='container-fluid App'>
-        
-        Hello this is dog
-        
+        <Navbar/>
+          
+            {this.props.children}
+          
+        <Footer/>
       </div>
     )}
 });
