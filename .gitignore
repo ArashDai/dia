@@ -1,4 +1,4 @@
-./node_modules/
-./test
-./client/assets
+node_modules/
+
+client/assets/
 test3/
