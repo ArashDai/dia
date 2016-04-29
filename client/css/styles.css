@@ -1,15 +1,17 @@
-
+/* Background pattern from subtlepatterns.com */
 body{
     margin:0px;
     padding:0px;
     width:100%;
-    background-color: lightblue;
+    background-image: url("../assets/restaurant.png");
 }
+
 .App{
     width:100%;
     margin:0px;
     padding:0px;
 }
+
 #main{
     width:100%;
     margin:0px;
@@ -17,9 +19,11 @@ body{
 }
 
 .Homepage{
+    width:100%;
     margin:0px;
     padding:0px; 
 }
+
 .navbar{
     background-color: white;
     box-shadow: 2px 2px 10px #888888;
@@ -34,48 +38,63 @@ body{
     padding-right:1em;
 }
 
+#slideshowPosition{
+    margin-top:5em;
+}
+
+.carousel-caption{
+    margin-bottom:10%;
+}
+
 .carouselImg{
     width:100%;
 }
 
-.carousel-inner{
-    width:80%;
-    margin-left:11%;
-}
-
 .carousel{
- width:100%;
- margin:0px;
- padding:0px;   
+    width:100%;  
 }
 
 .carousel-control.left, .carousel-control.right {
- background-image: none !important;
+    background-image: none !important;
 }
 
 .Card{
- background-color: white;
- padding:1em;
- margin:1em;
- box-shadow: 2px 2px 10px #888888;
+    background-color: white;
+    padding:1em;
+    margin:1em;
+    box-shadow: 2px 2px 10px #888888;
 }
 
 .CardTwo{
- background-color: white;
- padding:.30em;
- margin:.30em;
- box-shadow: 2px 2px 10px #888888;   
+    background-color: white;
+    padding:.3em;
+    box-shadow: 2px 2px 10px #888888;   
+}
+
+#menuHeader{
+    color:white;
+    font-size: 6em;
+    text-shadow: 0px 1px 2px rgba(255, 255, 255, 0.68);
+}
+#menuHeaderTwo{
+    font-size: 6em;
 }
 
 .menuContainer{
- width:100%;
- margin:0px;
- padding:0px;  
+    width:100%;
+    margin:0px;
+    padding:0px;  
 }
 
 .menuItem{
- height:11em;
+    height:11em;
 }
+
+.mainImg{
+   max-width:96%;
+   max-height:100%;
+}
+
 
 .drinkMenuItem{
     height:2em;

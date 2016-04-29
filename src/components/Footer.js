@@ -8,7 +8,7 @@ var Footer = React.createClass({
   render:function(){
     return(
 
-      <div className='container-fluid'>
+      <div className='container-fluid Card'>
         
         Hello this is Footer
                 
