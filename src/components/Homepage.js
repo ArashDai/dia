@@ -4,6 +4,7 @@ import { Router, Route, Link, browserHistory } from 'react-router'
 
 import Slideshow from './Slideshow'
 import Information from './Information'
+import Menu from './Menu'
 
 const Homepage = React.createClass({
 
@@ -14,6 +15,7 @@ const Homepage = React.createClass({
         
         <Slideshow/>
         <Information/>
+        <Menu/>
         
       </div>
     )}

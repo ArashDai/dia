@@ -22,6 +22,12 @@ body{
 }
 .navbar{
     background-color: white;
+    box-shadow: 2px 2px 10px #888888;
+    margin-top:.5em;
+    padding-right:1em;
+    padding-left:1em;
+    margin-right:1em;
+    margin-left:1em;
 }
 
 .navbar div ul li{
@@ -30,7 +36,11 @@ body{
 
 .carouselImg{
     width:100%;
-    height:60vh;
+}
+
+.carousel-inner{
+    width:80%;
+    margin-left:11%;
 }
 
 .carousel{
@@ -40,12 +50,49 @@ body{
 }
 
 .carousel-control.left, .carousel-control.right {
-    background-image: none !important;
+ background-image: none !important;
 }
 
 .Card{
-    background-color: white;
-    padding:1em;
-    margin:1em;
-    box-shadow: 5px 5px 10px #888888;
+ background-color: white;
+ padding:1em;
+ margin:1em;
+ box-shadow: 2px 2px 10px #888888;
+}
+
+.CardTwo{
+ background-color: white;
+ padding:.30em;
+ margin:.30em;
+ box-shadow: 2px 2px 10px #888888;   
+}
+
+.menuContainer{
+ width:100%;
+ margin:0px;
+ padding:0px;  
+}
+
+.menuItem{
+ height:11em;
+}
+
+.drinkMenuItem{
+    height:2em;
+}
+
+.drinkMenuItem2{
+    height:4em;
+}
+
+#special{
+    height:4em;
+}
+
+#bigItem{
+    height:12em;
+}
+
+#coldCut{
+    margin-top:2em;
 }
