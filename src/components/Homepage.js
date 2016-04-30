@@ -12,10 +12,12 @@ const Homepage = React.createClass({
     return(
 
       <div className='container-fluid Homepage'>
-        
         <Slideshow/>
+        
         <Information/>
+        
         <Menu/>
+        
         
       </div>
     )}

@@ -17,14 +17,13 @@ var Navbar = React.createClass({
                      <span className="icon-bar"></span>
                      <span className="icon-bar"></span>
                    </button>
-                   <a className="navbar-brand" href="#">Cafe Dia</a>
+                   <a className="navbar-brand" href="#Home">Cafe Dia</a>
                  </div>
                
-                 
                  <div className="collapse navbar-collapse navbar-ex1-collapse">
                    <ul className="nav navbar-nav navbar-right">
-                     <li className='text-center'><a href="#">About</a></li>
-                     <li className='text-center'><a href="#">Menu</a></li>
+                     <li className='text-center'><a href="#Info">About</a></li>
+                     <li className='text-center'><a href="#Menu">Menu</a></li>
                    </ul>
                  </div>
                </nav>

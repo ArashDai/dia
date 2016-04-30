@@ -13,6 +13,7 @@ const Information = React.createClass({
         <p className='text-center'>Located in Shoreline Village at 429-F Shoreline Village Drive Long Beach, CA 90802</p> 
         <p className='text-center'>562-435-7100</p>
         <p className='text-center'>Open From 7:30am - 9:00pm Everyday</p>
+        <a id='Menu'></a>
       </div>
     )}
 });
