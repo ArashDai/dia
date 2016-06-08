@@ -90,6 +90,14 @@ body{
     height:11em;
 }
 
+.menuItem2{
+    height:13em;
+}
+
+.menuItem3{
+    height:15em;
+}
+
 .mainImg{
    max-width:96%;
    max-height:100%;
@@ -100,7 +108,7 @@ body{
 }
 
 .drinkMenuItem2{
-    height:4em;
+    height:10em;
 }
 
 #special{

@@ -31,13 +31,13 @@ const SaladMenu= React.createClass({
             
             <div className='col-xs-12 col-sm-6 menuItem'>
                 <p className='itemName text-center'><b>Clam Chowder in a Bread Bowl</b></p>
-                <p className='itemDescription text-center'></p>
+                <p className='itemDescription text-center'>A rich cream based soup with a blend of clams, potatoes, and vegetables in a bread bowl.</p>
                 <p className='itemPrice text-center'>$8.50</p>
             </div>
             
-            <div className='col-xs-12 col-sm-6'>
+            <div className='col-xs-12 col-sm-6 menuItem'>
                 <p className='itemName text-center'><b>Clam Chowder</b></p>
-                <p className='itemDescription text-center'></p>
+                <p className='itemDescription text-center'>A rich cream based soup with a blend of clams, potatoes, and vegetables.</p>
                 <p className='itemPrice text-center'>$6.00</p>
             </div>
             

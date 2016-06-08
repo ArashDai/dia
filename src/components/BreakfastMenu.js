@@ -21,13 +21,13 @@ const BreakfastMenu = React.createClass({
             <p className='itemPrice text-center'>$12.99</p>
         </div>
         
-        <div id="bigItem" className='col-xs-12 col-sm-6 menuItem'>
+        <div  className='col-xs-12 col-sm-6 menuItem3'>
             <p className='itemName text-center'><b>Veggie Omelette</b></p>
             <p className='itemDescription text-center'>Choice of Three Vegetables: Mushrooms, Bell Pepper, Tomato, Green Onion, and Spinach, Served with Cheddar Cheese and toast</p>
             <p className='itemPrice text-center'>$12.99</p>
         </div>
         
-        <div id="bigItem" className='col-xs-12 col-sm-6 menuItem'>
+        <div  className='col-xs-12 col-sm-6 menuItem3'>
             <p className='itemName text-center'><b>Mediterranean Style Breakfast</b></p>
             <p className='itemDescription text-center'>1. Scrambled Eggs, Sliced Persian Cucumber, Tomato, Olives, Feta Cheese, and Grapes. Served with Hummus Dip and Grilled Pita Bread</p>
             <p className='itemDescription text-center'>2. Scrambled Eggs with side of Gyro Meat, Served with Feta Cheese, Olives and Grilled Pita Bread</p>
@@ -46,14 +46,14 @@ const BreakfastMenu = React.createClass({
             <p className='itemPrice text-center'>$9.99</p>
         </div>
         
-        <div className='col-xs-12 col-sm-6 menuItem'>
+        <div className='col-xs-12 col-sm-6 menuItem2'>
             <p className='itemName text-center'><b>Veggie Panini</b></p>
             <p className='itemDescription text-center'>Scrambled Eggs, Cheese, Tomato, on Toasted or Grilled Italian Panini Bread</p>
             <p className='itemDescription text-center'>Elvis' Favorite Peanut Butter, Banana, and Honey, on Toasted or Grilled Italian Panini Bread</p>
             <p className='itemPrice text-center'>$9.99</p>
         </div>
         
-         <div className='col-xs-12 col-sm-6 menuItem'>
+         <div className='col-xs-12 col-sm-6 menuItem2'>
             <p className='itemName text-center'><b>Croissant Sandwich</b></p>
             <p className='itemDescription text-center'>Eggs Served with Boar's Head Black Forest Ham and Provolone Cheese in a Buttery Toasted Croissant</p>
             <p className='itemPrice text-center'>$9.99</p>

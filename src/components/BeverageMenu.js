@@ -82,23 +82,27 @@ const BeverageMenu = React.createClass({
             </div>
             <div className='col-xs-12 col-sm-6 drinkMenuItem'></div>
          <br/>   
-         <h4 className='text-center'>Cold Drinks $3.00</h4> 
+         
             <div className='col-xs-12 drinkMenuItem2'>
+                <h4 className='text-center'>Cold Drinks $3.00</h4> 
                 <p className='text-center itemDescription'><b>Coke, Diet Coke, Sprite, Lemonade, Cranberry Juice, Gingerale, Bottled Water, Pelligrino, Orange Juice</b></p>
             </div>
          <br/>    
-         <h4 className='text-center'>Iced Tea $3.00</h4> 
+         
             <div className='col-xs-12 drinkMenuItem2'>
+                <h4 className='text-center'>Iced Tea $3.00</h4> 
                 <p className='text-center itemDescription'><b>Unsweetened Black Tea, Raspberry Iced Tea, Green Iced Tea</b></p>
             </div>
          <br/>  
-         <h4 className='text-center'>Hot Drinks $2.75</h4> 
+         
             <div className='col-xs-12 drinkMenuItem2'>
+                <h4 className='text-center'>Hot Drinks $2.75</h4> 
                 <p className='text-center itemDescription'><b>Coffee, Tea</b></p>
             </div>
          <br/>
-         <h4 className='text-center'>Specialty Hot Drinks $2.75</h4> 
+         
             <div className='col-xs-12 drinkMenuItem2'>
+                <h4 className='text-center'>Specialty Hot Drinks $5.00</h4> 
                 <p className='text-center itemDescription'><b>Espresso, Turkish Coffee, Cappuccino, Latte, Hot Chocolate</b></p>
             </div>
       </div>

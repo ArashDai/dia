@@ -9,9 +9,7 @@ var Footer = React.createClass({
     return(
 
       <div className='container-fluid Card'>
-        
         Hello this is Footer
-                
       </div>
     )}
 });

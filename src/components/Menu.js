@@ -16,20 +16,14 @@ const Menu = React.createClass({
       <div className='container-fluid menuContainer'>
         <h1 className='text-center col-xs-12 hidden-xs' id='menuHeader'>Menu</h1>
         
-        <div className='container-fluid hidden-xs col-sm-10 col-sm-push-1'>
-          <img className=' col-xs-4 smallImgs' src='./assets/gyroplatter.jpg'/>
-          <img className=' col-xs-4 smallImgs' src='./assets/koftakebab.jpg'/>
-          <img className=' col-xs-4 smallImgs' src='./assets/chickenplatter.jpg'/>
-        </div>
-        
         <AppetizerMenu/>
-        <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/MedSalad.jpg'/>
+          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/MedSalad.jpg'/>
         <SaladMenu/>
-        <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/salmon.jpg'/>
+          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/salmon.jpg'/>
         <EntreeMenu/>
-        <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/falafel.jpg'/>
+          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/falafel.jpg'/>
         <SandwichMenu/>
-        <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/cheeseburger.jpg'/>
+          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/cheeseburger.jpg'/>
         <KidsMenu/>
         <BreakfastMenu/>
         <BeverageMenu/>

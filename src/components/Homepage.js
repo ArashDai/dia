@@ -18,7 +18,6 @@ const Homepage = React.createClass({
         
         <Menu/>
         
-        
       </div>
     )}
 });
