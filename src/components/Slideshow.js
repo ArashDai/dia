@@ -15,7 +15,7 @@ const Slideshow = React.createClass({
                     <div className="container">
                         <div className="carousel-caption">
                             <a id='Info'></a>
-                            <h1>Welcome to Cafe Dia</h1>
+                            <h1 id='slideshow' className='hidden-xs'>Welcome to Cafe Dia</h1>
                         </div>
                     </div>
                 </div>

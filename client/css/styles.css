@@ -5,7 +5,10 @@ body{
     width:100%;
     background-image: url("../assets/restaurant.png");
 }
-
+h1 #slideshow{
+    color:white;
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 .App{
     width:100%;
     margin:0px;
