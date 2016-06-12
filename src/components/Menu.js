@@ -14,16 +14,24 @@ const Menu = React.createClass({
   render:function(){
     return(
       <div className='container-fluid menuContainer'>
-        <h1 className='text-center col-xs-12 hidden-xs' id='menuHeader'>Menu</h1>
+        <h1 className='text-center col-xs-12 hidden' id='menuHeader'>Menu</h1>
         
         <AppetizerMenu/>
-          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/MedSalad.jpg'/>
+          <div className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 mainImg' >
+            <img className='Img' src='./assets/MedSalad.jpg'/>
+          </div>
         <SaladMenu/>
-          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/salmon.jpg'/>
+          <div className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 mainImg' >
+            <img className='Img' src='./assets/salmon.jpg'/>
+          </div>
         <EntreeMenu/>
-          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/falafel.jpg'/>
+          <div className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 mainImg'>
+            <img className='Img' src='./assets/falafel.jpg'/>
+          </div>
         <SandwichMenu/>
-          <img className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card mainImg' src='./assets/cheeseburger.jpg'/>
+        <div className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 mainImg'>
+          <img className='Img' src='./assets/cheeseburger.jpg'/>
+        </div>
         <KidsMenu/>
         <BreakfastMenu/>
         <BeverageMenu/>

@@ -8,8 +8,8 @@ var Footer = React.createClass({
   render:function(){
     return(
 
-      <div className='container-fluid Card'>
-        Hello this is Footer
+      <div className='container-fluid Card text-center'>
+        © 2016 Cafe Dia
       </div>
     )}
 });

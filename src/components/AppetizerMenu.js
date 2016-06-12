@@ -9,7 +9,7 @@ const AppetizerMenu = React.createClass({
     return(
 
       <div className='container-fluid col-sm-10 col-lg-8 col-sm-push-1 col-lg-push-2 Card'>
-      <h1 className='text-center visible-xs'id='menuHeaderTwo'>Menu</h1>
+      <h1 className='text-center'id='menuHeaderTwo'>Menu</h1>
       <h3 className='text-center'>Appetizers</h3>
         <div className='col-xs-12 col-sm-6 menuItem'>
             <p className='itemName text-center'><b>Dolmas</b></p>

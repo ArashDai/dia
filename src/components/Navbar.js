@@ -7,7 +7,7 @@ var Navbar = React.createClass({
 
   render:function(){
     return(
-               
+             <div className='container-fluid'>  
                <nav className="navbar navbar-default navbar-fixed-top container-fluid" role="navigation">
                  
                  <div className="navbar-header">
@@ -27,6 +27,7 @@ var Navbar = React.createClass({
                    </ul>
                  </div>
                </nav>
+              </div>
                
 
     )}
